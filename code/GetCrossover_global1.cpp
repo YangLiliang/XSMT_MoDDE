@@ -6,7 +6,7 @@
 //	printf("%lf %lf\n",c,c2_now);
     if(c<c2_now)
 	{
-	  r1=(int)((rand()/(RAND_MAX+1.0))*(vertice-1))+1;//Randomly select two edges [1¡ªvertice-1]
+	  r1=(int)((rand()/(RAND_MAX+1.0))*(vertice-1))+1;//Randomly select two edges 
 	  r2=(int)((rand()/(RAND_MAX+1.0))*(vertice-1))+1;
 	  while(r1==r2)
 		r2=(int)((rand()/(RAND_MAX+1.0))*vertice)+1;
